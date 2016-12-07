@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kiat.anhhong.game2048.MainActivity">
+
+    <TableLayout
+        android:id="@+id/table"
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:layout_marginTop="10dp"
+        android:background="#f00">
+
+    </TableLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1.0"/>
+
+    <Button
+        android:id="@+id/lock"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="Lock  :)" />
+    <Button
+        android:id="@+id/stt"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="stt" />
+
+
+</LinearLayout>
