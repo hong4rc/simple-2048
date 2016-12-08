@@ -1,4 +1,4 @@
-package sp.view;
+package kiat.anhhong.game2048;
 
 import android.view.MotionEvent;
 

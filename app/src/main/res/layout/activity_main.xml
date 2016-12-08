@@ -9,19 +9,28 @@
     android:layout_height="match_parent"
     tools:context="kiat.anhhong.game2048.MainActivity">
 
-    <TableLayout
-        android:id="@+id/table"
+    <FrameLayout
+        android:layout_margin="20dp"
         android:layout_width="320dp"
-        android:layout_height="320dp"
-        android:layout_marginTop="10dp"
-        android:background="#f00">
+        android:layout_height="320dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:id="@+id/vieww"
+            android:background="#f00"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
-    </TableLayout>
+        </LinearLayout>
+        <View
+            android:backgroundTint="#00ff00ff"
+            android:id="@+id/table"
+            android:layout_width="320dp"
+            android:layout_height="320dp"
+            android:layout_marginTop="10dp"
+            android:background="#f00">
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="0.0dp"
-        android:layout_weight="1.0"/>
+        </View>
+    </FrameLayout>
 
     <Button
         android:id="@+id/lock"
@@ -30,9 +39,10 @@
         android:text="Lock  :)" />
     <Button
         android:id="@+id/stt"
-        android:layout_width="80dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="stt" />
+        android:text="stt"
+        android:layout_weight="1.0"/>
 
 
 </LinearLayout>

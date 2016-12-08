@@ -18,12 +18,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LockScreen" />
-
-        <service
-            android:name=".MyService"
-            android:enabled="true"
-            android:exported="true"></service>
+        <activity android:name=".GameOver"></activity>
     </application>
 
 </manifest>
